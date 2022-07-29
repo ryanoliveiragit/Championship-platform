@@ -3,7 +3,7 @@ import Rotas from './Routes'
 
 const Root = () => {
   return (
-    <div><Rotas /></div>
+    <Rotas />
   )
 }
 

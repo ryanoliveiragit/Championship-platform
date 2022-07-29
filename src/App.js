@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Root from './components/Root'
+import './App.css'
 
-const App = () => <Root></Root>
+function App() {
+return (
+    <Fragment>
+        <Root />
+    </Fragment>
+);
+}
 
 export default App
